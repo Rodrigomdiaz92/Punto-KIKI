@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#carritoCompras {
+  display: none;
+}
+
+#confirmacion {
+  display: none;
+}
+
+#final {
+  display: none;
+}
+
+body {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #dbff4c 0%, #e8c9c9 78%);
+  font-family: "Carter One", cursive;
+}
+
+#quienes-somos {
+  border-radius: 20%;
+}
+
+.nav-puntokiki {
+  background: #dbff4c;
+  background: linear-gradient(142deg, #dbff4c 0%, #dbff4c 0%, #e1e589 72%, #e8c9c9 100%);
+}
+
+div.red {
+  background: red;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em;
+  position: relative;
+  left: 40px;
+  bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

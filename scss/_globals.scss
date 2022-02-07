@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#carritoCompras {
+  display: none;
+}
+
+#confirmacion {
+  display: none;
+}
+
+#final {
+  display: none;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(219, 255, 76, 1) 0%,
+    rgba(232, 201, 201, 1) 78%
+  );
+  font-family: "Carter One", cursive;
+}
+
+#quienes-somos {
+  border-radius: 20%;
+}
+
+.nav-puntokiki {
+  background: rgb(219, 255, 76);
+  background: linear-gradient(
+    142deg,
+    rgba(219, 255, 76, 1) 0%,
+    rgba(219, 255, 76, 1) 0%,
+    rgba(225, 229, 137, 1) 72%,
+    rgba(232, 201, 201, 1) 100%
+  );
+}
+
+div.red {
+  background: red;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em;
+  position: relative;
+  left: 40px;
+  bottom: 15px;
+}
